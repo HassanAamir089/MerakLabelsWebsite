@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -15,12 +15,14 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Raleway:wght@400;500;600;700&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
   <link href="../assets/css/main.css" rel="stylesheet">
@@ -124,7 +126,7 @@
           </div>
 
           <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
-            <img id="service-img" src="../assets/img/services/printedlabels/pharma.webp" alt="" class="img-fluid services-img" loading="lazy" decoding="async">
+            <img id="service-img" src="assets/img/services.jpg" alt="" class="img-fluid services-img">
             <h3 id="service-heading"></h3>
             <p id="service-desc1">
             </p>
@@ -282,13 +284,13 @@
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Merak Labels Pvt. Ltd.</strong> <span>All Rights Reserved</span></p>
+      <p>Â© <span>Copyright</span> <strong class="px-1 sitename">Merak Labels Pvt. Ltd.</strong> <span>All Rights Reserved</span></p>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you've purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href=“https://themewagon.com>ThemeWagon
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href=â€œhttps://themewagon.com>ThemeWagon
       </div>
     </div>
 
@@ -311,6 +313,11 @@
   <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="../assets/vendor/php-email-form/validate.js"></script>
   <script src="../assets/vendor/aos/aos.js"></script>
+  <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="../assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script>
     const servicesData = {
       pharma: {
@@ -324,7 +331,7 @@
           "Resistant to moisture, handling, and temperature variations.",
           "Manufactured using high-quality Avery Dennison materials."
         ],
-        desc2: "They ensure critical information such as batch codes, barcodes, and expiry details remain clear and legible throughout the product’s lifecycle.",
+        desc2: "They ensure critical information such as batch codes, barcodes, and expiry details remain clear and legible throughout the productâ€™s lifecycle.",
         desc3: "Designed to meet the strict quality standards of the pharmaceutical industry."
       },
 
@@ -354,7 +361,7 @@
           "Suitable for bottles, jars, pouches, and cartons.",
           "Moisture and temperature-resistant for chilled goods."
         ],
-        desc2: "They’re widely used for snacks, sauces, beverages, and bakery products, providing clear branding and essential product information.",
+        desc2: "Theyâ€™re widely used for snacks, sauces, beverages, and bakery products, providing clear branding and essential product information.",
         desc3: "Each label roll is produced with precision and uniformity to ensure flawless results every time."
       },
 
@@ -392,7 +399,7 @@
         img: "../assets/img/services/printedlabels/custom.webp",
         title: "Custom Printed Labels",
         subtext: "Tailored label designs for unique business needs.",
-        heading: "Fully customized label solutions — made just for you.",
+        heading: "Fully customized label solutions â€” made just for you.",
         desc1: "We specialize in producing custom printed labels according to your exact requirements. From shape and size to finish and adhesive type, every element is crafted for your specific product and brand.",
         bullets: [
           "Any size, material, or finish available.",
